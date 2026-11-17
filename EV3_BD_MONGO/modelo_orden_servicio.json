@@ -1,0 +1,34 @@
+{
+  "_id": "ORD-5001",
+  "fecha_ingreso": "2024-05-10T09:00:00Z",
+  "estado": "TERMINADA",
+  "cliente": {
+    "rut": "12345678-9",
+    "nombre": "Juan Pérez",
+    "tipo_cliente": "PARTICULAR"
+  },
+  "mecanico_asignado": {
+    "id_mecanico": 101,
+    "nombre": "Carlos Morales",
+    "especialidad": "Frenos"
+  },
+  "detalles_servicio": [
+    {
+      "descripcion": "Cambio de pastillas y discos",
+      "costo_mano_obra": 86000,
+      "costo_repuestos": 120000
+    },
+    {
+      "descripcion": "Reparación de alternador",
+      "costo_mano_obra": 60000,
+      "costo_repuestos": 45000
+    }
+  ],
+  "totales": {
+    "subtotal_mano_obra": 146000,
+    "subtotal_repuestos": 165000,
+    "total_neto": 311000,
+    "iva": 59090,
+    "total_facturado": 370090
+  }
+}
